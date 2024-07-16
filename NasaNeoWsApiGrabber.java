@@ -1,4 +1,4 @@
-//BgRCHR9hPq5hff9I0mqe08wOUOsUSPMbAuJWHzaU
+//You will need to obtain your own API key from the NASA Api website to run this program 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
@@ -7,7 +7,7 @@ import java.net.URL;
 public class NasaNeoWsApiGrabber {
 
     public static void main(String[] args) {
-        String apiKey = "BgRCHR9hPq5hff9I0mqe08wOUOsUSPMbAuJWHzaU";  
+        String apiKey = ""; //Api key goes here 
         String startDate = "2024-06-05";
         String endDate = "2024-06-05";
         String urlString = String.format(
